@@ -17,12 +17,14 @@
     color: black;
 }
 body{
-     background-color: rgb(172, 169, 165);
+     background-color: rgb(209, 231, 216);
     font-size: x-large;
     margin-left: 5%;
    
     margin-right: 5%;
 }
+
+
 li {
     display: inline-block;
     text-align: center;
@@ -241,6 +243,7 @@ input:focus, textarea:focus  {
      width: 100%;
      border: hidden;
      background-color: white;
+     
  }
  table tr td img {
      width: 100px;
