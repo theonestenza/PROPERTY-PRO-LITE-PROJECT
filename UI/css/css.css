@@ -67,6 +67,7 @@ a {
 ul {
     list-style-type: none;
 }
+
 @keyframes slider {
  0% {
      left: 0;
@@ -100,8 +101,9 @@ ul {
 .slider {
   overflow: hidden;
   margin-left: 10%;
-    
-    margin-right: 10%;
+   margin-right: 10%;
+   border: hidden;
+   border-radius: 0.5em;
 }
 .slider figure  {
     position: relative;
