@@ -34,7 +34,7 @@ li {
 }
 
 input{ 
-    width:50%; 
+    width:60%; 
     border: lightseagreen solid 1px;
     border-radius: 0.2em;
     
@@ -151,6 +151,20 @@ ul {
     display: inline-block;
     
 }
+.content:hover {
+    
+    background-color:lightcyan;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+   border: hidden;
+   border-radius: 0.2em;
+   margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: inline-block;
+    
+}
 a:link {
     color: white;
     }
@@ -160,18 +174,18 @@ a:visited {
 a:hover {
     color:blue; 
     }
-input, textarea, button {
+input, textarea {
         font    : .9em/1.5em "handwriting", sans-serif;
       
         border  : none;
         padding : 0 10px;
         margin  : 0;
-        width   : 240px;
+        width   : 400px;
        border: hidden;
        border-radius: 0.2em;
         background: white;
       }
-input:focus, textarea:focus ,button:focus {
+input:focus, textarea:focus  {
         background   : bisque;
         border-radius: 5px;
         outline      : none;
@@ -183,7 +197,31 @@ input:focus, textarea:focus ,button:focus {
           font-weight: bold;
 
       }
-b 
+ button {
+    font    : .9em/1.5em "handwriting", sans-serif;
+      
+    border  : none;
+    padding : 0 10px;
+    margin  : 0;
+    width   : 200px;
+   border: hidden;
+   border-radius: 0.2em;
+    background: white;
+
+ }
+ button:focus {
+    background   : bisque;
+    border-radius: 5px;
+    outline      : none;
+    border: hidden;
+   border-radius: 0.2em;
+ }
+  .subheader-cu {
+     
+     color: black;
+ }
+
+
 
 
 
