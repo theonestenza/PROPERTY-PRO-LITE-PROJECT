@@ -2,7 +2,7 @@
 .heading {
     text-align: center;
     font-size: x-large;
-    background-color: aquamarine;
+    background-color: black;
     border: hidden;
     border-radius: 0.2em;
     list-style-type: none;
@@ -13,10 +13,11 @@
 .footer {
     margin-left: 10%;
     margin-right: 10%;
-    background-color: aquamarine;
+    background-color: black;
+    color: white;
 }
 body{
-     /* background-color: burlywood; */
+     background-color: rgb(172, 169, 165);
     font-size: x-large;
     margin-left: 5%;
     
@@ -51,7 +52,7 @@ h1 {
 .form {
     margin-left: 30%;
     margin-right: 30%;
-    background-color: aquamarine;
+    background-color: black;
     border: lightgreen solid 1px;
     border-radius: 0.5em;
 }
@@ -97,6 +98,7 @@ ul {
  100% {
      left: -400;
  }
+
 }
 .slider {
   overflow: hidden;
@@ -129,6 +131,30 @@ ul {
     margin-left: 10%;
     margin-right: 10%;
 }
+.content-message {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+    
+    background-color:black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   border: hidden;
+   border-radius: 0.2em;
+   margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
+
+
 
 
 
