@@ -1,40 +1,26 @@
 
 .heading {
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     background-color: aquamarine;
     border: hidden;
     border-radius: 0.2em;
     list-style-type: none;
-     margin-left: 15%;
-    margin-right: 15%;
-    font-size: xx-large;
-    font-weight: bolder;
-}
-.heading:hover {
-    text-align: center;
-    font-size: xx-large;
-    background-color: aquamarine;
-    border:hidden;
-    border-radius: 0.2em;
-    
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: xx-large;
-    font-weight: bolder;
-
+     margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bolder;   
 }
 .footer {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: aquamarine;
 }
 body{
-     background-color: burlywood;
+     /* background-color: burlywood; */
     font-size: x-large;
+    margin-left: 5%;
     
-    
-    
+    margin-right: 5%;
 }
 li {
     display: inline-block;
@@ -74,13 +60,77 @@ a {
 }
 .subheading {
     font-size: large;
-    margin-right: 65%;
-    margin-left: 5%
+    margin-right: 055%;
+    margin-left: 10%
     
 }
 ul {
     list-style-type: none;
 }
+@keyframes slider {
+ 0% {
+     left: 0;
+ }  
+ 20% {
+     left: 0;
+ } 
+ 25% {
+     left: -100;
+ }
+ 45% {
+     left: -100;
+ }
+
+ 50% {
+    left: -200%;
+ }
+ 70% {
+     left: -200;
+ }
+ 75% {
+     left: -300;
+ }
+ 95% {
+     left: -400;
+ }
+ 100% {
+     left: -400;
+ }
+}
+.slider {
+  overflow: hidden;
+  margin-left: 10%;
+    
+    margin-right: 10%;
+}
+.slider figure  {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+   animation: 20s slider infinite;
+
+}
+.slider figure img {
+    width: 20%;
+    float: left;
+}
+.color-header {
+    border: hidden;
+    border-radius: 0.2em;
+    
+}
+.centering ul li {
+    color: brown;
+}
+.google-map-box {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
 
 
 
