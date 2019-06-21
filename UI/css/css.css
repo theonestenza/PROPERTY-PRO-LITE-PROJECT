@@ -203,6 +203,10 @@ input:focus, textarea:focus  {
           font-weight: bold;
 
       }
+ .style2 {
+     font-size: medium;
+     text-align: left;
+    }
  button {
     font    : .9em/1.5em "handwriting", sans-serif;
       
@@ -212,7 +216,8 @@ input:focus, textarea:focus  {
     width   : 200px;
    border: hidden;
    border-radius: 0.2em;
-    background: white;
+    background:orange;
+    font-weight: bolder;
 
  }
  button:focus {
@@ -221,10 +226,15 @@ input:focus, textarea:focus  {
     outline      : none;
     border: hidden;
    border-radius: 0.2em;
+   font-weight: bolder;
  }
   .subheader-cu {
      
      color: black;
+ }
+ table {
+     margin-right: 10%;
+     margin-right: 10%;
  }
 
 
