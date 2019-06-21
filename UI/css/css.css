@@ -151,6 +151,39 @@ ul {
     display: inline-block;
     
 }
+a:link {
+    color: white;
+    }
+a:visited {
+    color: white;
+    }
+a:hover {
+    color:blue; 
+    }
+input, textarea, button {
+        font    : .9em/1.5em "handwriting", sans-serif;
+      
+        border  : none;
+        padding : 0 10px;
+        margin  : 0;
+        width   : 240px;
+       border: hidden;
+       border-radius: 0.2em;
+        background: white;
+      }
+input:focus, textarea:focus ,button:focus {
+        background   : bisque;
+        border-radius: 5px;
+        outline      : none;
+        border: hidden;
+       border-radius: 0.2em;
+      }
+.form-text {
+          color: white;
+          font-weight: bold;
+
+      }
+b 
 
 
 
