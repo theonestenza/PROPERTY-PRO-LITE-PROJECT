@@ -235,6 +235,20 @@ input:focus, textarea:focus  {
  table {
      margin-right: 10%;
      margin-right: 10%;
+     border: green solid 1px;
+     border-radius: 0.5em;
+     width: 100%;
+     border: hidden;
+     background-color: white;
+ }
+ table tr td img {
+     width: 100px;
+     height: 100px;
+ }
+ table tr td button {
+     width: 100px;
+     font-size: small;
+
  }
 
 
