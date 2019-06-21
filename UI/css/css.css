@@ -172,13 +172,13 @@ ul {
     
 }
 a:link {
-    color: white;
+    color: blue;
     }
 a:visited {
     color: white;
     }
 a:hover {
-    color:blue; 
+    color:palevioletred; 
     }
 input, textarea {
         font    : .9em/1.5em "handwriting", sans-serif;
@@ -249,6 +249,9 @@ input:focus, textarea:focus  {
      width: 100px;
      font-size: small;
 
+ }
+ table tr td h1 a:link {
+     color: blue;
  }
 
 
