@@ -58,7 +58,7 @@ h1 {
     
 }
 .section {
-    /* background-image: url("../images/backg.jpg"); */
+    
     margin-left: 10%;
    margin-right: 10%;
 }
@@ -66,9 +66,9 @@ a {
     text-decoration: none;
 }
 .subheading {
-    font-size: large;
-    margin-right: 055%;
-    margin-left: 10%
+    font-size: x-large;
+    margin-right: 10%;
+    margin-left: 10%;
     
 }
 ul {
