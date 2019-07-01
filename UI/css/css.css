@@ -2,28 +2,114 @@
 .heading {
     text-align: center;
     font-size: x-large;
-    background-color: white;
+    background-color: rgb(44, 40, 40);
     border: hidden;
     border-radius: 0.2em;
     list-style-type: none;
-     margin-left: 10%;
-    margin-right: 10%;
-    font-weight: bolder;   
+     margin-left: 0;
+    margin-right: 0;
+    font-weight: bolder; 
+    padding: 5px 20px;  
 }
+.header-backg {
+    background-image: url("../images/ogbg.PNG");
+   
+}
+.container {
+	display: grid;
+	grid-template-columns: [col1] 33% [col2] 34% [col3] 33%;
+}
+.div1 img {
+     display: block;
+     margin-left: auto; 
+     margin-right: auto;
+}
+.div2 img {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.div3 img {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.div1 {
+	padding: 25px;
+	border-radius: 6px;
+}
+.div2 {
+	padding: 25px;
+	border-radius: 6px;
+}
+.div3 {
+	padding: 25px;
+	border-radius: 6px;
+}
+.container-house {
+    padding: 0;
+    background-color: grey;
+    border: hidden;
+    border-radius:.8em;
+	display: grid;
+	grid-template-columns: [col1] 33% [col2] 35% [col3] 30%;
+}
+.div1-house img {
+     display: block;
+     margin-left: auto; 
+     margin-right: auto;
+}
+.div2-house img {
+    display: block;
+    margin-left: 20%; 
+    margin-right: auto;
+}
+
+.div3-house img {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    
+}
+.div1-house {
+	padding: 25px;
+	border-radius: 6px;
+}
+.div2-house {
+    margin-left: 20%; 
+    margin-right: auto;
+	padding: 25px;
+	border-radius: 6px;
+}
+.div3-house {
+	padding: 25px;
+	border-radius: 6px;
+}
+
 .footer {
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
     color: black;
 }
 body{
-     background-color: rgb(209, 231, 216);
-    font-size: x-large;
-    margin-left: 5%;
-   
-    margin-right: 5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-size: large;
 }
-
+.web-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow: 3px 0.1px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.wel-msg {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align-last: right;
+}
 
 li {
     display: inline-block;
@@ -35,13 +121,7 @@ li {
     
 }
 
-input{ 
-    width:60%; 
-    border: blue solid 1px;
-    border-radius: 0.2em;
-    
 
-} 
 .centering {
     text-align: center;
 }
@@ -54,23 +134,25 @@ h1 {
 .form {
     margin-left: 30%;
     margin-right:20%;
-    background-color: white;
+    background-color: beige;
     border: lightgreen solid 1px;
     border-radius: 0.5em;
+    width: 40%
+    ;
     
 }
 .section {
     
-    margin-left: 10%;
-   margin-right: 10%;
+    margin-left: 0;
+   margin-right: 0;
 }
 a {
     text-decoration: none;
 }
 .subheading {
     font-size: x-large;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 0;
+    margin-left: 0;
     
 }
 ul {
@@ -110,14 +192,14 @@ ul {
 }
 .slider {
   overflow: hidden;
-  margin-left: 10%;
-   margin-right: 10%;
+   height: auto;
    border: hidden;
-   border-radius: 0.5em;
+   border-radius: 0.2em;
 }
 .slider figure  {
     position: relative;
     width: 500%;
+    height: auto;
     margin: 0;
     left: 0;
    animation: 20s slider infinite;
@@ -135,27 +217,46 @@ ul {
 .centering ul li {
     color: brown;
 }
-.google-map-box {
+.header-g-map {
+    background-color: lightblue;
+    color: white;
+    font-size:120%;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 5em;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 35%;
     
+}
+.header-g-map:hover {
+    width: 35%;
+    font-size:120%;
+    background-color: bisque;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 5em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.google-map-box {
     width: 100%;
 }
 .content-message {
     display: inline-block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .content {
-    
     background-color:white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     color: black;
    border: hidden;
    border-radius: 0.2em;
-   margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
+   margin-left: 0;
+    margin-right: 0;
     display: inline-block;
     
 }
@@ -167,8 +268,8 @@ ul {
     color: black;
    border: hidden;
    border-radius: 0.2em;
-   margin-left: 10%;
-    margin-right: 10%;
+   margin-left: 0;
+    margin-right: 0;
     text-align: center;
     display: inline-block;
     
@@ -188,8 +289,8 @@ input, textarea {
         border  : none;
         padding : 0 10px;
         margin  : 0;
-        width   : 400px;
-       border: blue solid 1px;
+        width   : 60%;
+       border: lightblue solid 1px;
        border-radius: 0.2em;
         background: white;
       }
@@ -199,7 +300,8 @@ input:focus, textarea:focus  {
         outline      : none;
         border: hidden;
        border-radius: 0.2em;
-       border: blue solid 1px;
+       border: lightblue solid 1px;
+       width   : 60%;
       }
 .form-text {
           color: black;
@@ -210,20 +312,26 @@ input:focus, textarea:focus  {
      font-size: medium;
      text-align: left;
     }
- button {
-    font    : .9em/1.5em "handwriting", sans-serif;
-      
-    border: blue solid 1px;
-    padding : 0 10px;
-    margin  : 0;
-    width   : 200px;
+form button { 
+     width: 50%;
+    border: lightblue solid 1px;
    border: hidden;
    border-radius: 0.2em;
-    background:orange;
+    background:burlywood;
     font-weight: bolder;
-
+    font-size: 50%;
  }
- button:focus {
+ .descr {
+     padding: 0;
+    background: url("../images/ogbg.PNG ") no-repeat;
+    border: white solid1px;
+    border-radius: .5em;
+    font-size: medium;
+    margin-right: 30%;
+    margin-left: 30%;
+    color: blue;
+ }
+ form button:focus {
     background   : bisque;
     border-radius: 5px;
     outline      : none;
@@ -236,8 +344,8 @@ input:focus, textarea:focus  {
      color: black;
  }
  table {
-     margin-right: 10%;
-     margin-right: 10%;
+     margin-right: 0;
+     margin-right: 0;
      border: green solid 1px;
      border-radius: 0.5em;
      width: 100%;
@@ -257,7 +365,97 @@ input:focus, textarea:focus  {
  table tr td h1 a:link {
      color: blue;
  }
+ .heading ul li a {
+     padding: 5px 20px;
+     border: green solid 1px;
+     background-color: bisque;
+     border-radius: 0.2em;
+     font-size: medium;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
 
+ }
+ .heading ul li a:hover {
+    padding: 5px;
+    border: green solid 1px;
+    background-color: bisque;
+    border-radius: 0.2em;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px 20px;
+
+}
+.div-container {
+    display: inline-block;
+}
+.d1 {
+    width: 33%;
+    background-color: blue;
+
+}
+.d2 {
+    width: 33% ;
+    background-color: aquamarine;
+}
+.d3  {
+    width: 33%
+}
+.d4  {
+    width: 33% 
+}
+.d5  {
+    width: 33%
+}
+.d6  {
+    width: 33%
+}
+.links {
+    margin-left: 70%;
+}
+.logo {
+    width: 5%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: hidden;
+    border-radius: 50%;
+}
+.container a img {
+    margin-left: 0;
+    border-radius: .2em;
+}
+.sub-h {
+    margin-top: 0;
+    padding: 10px 10px;
+    border-radius: .5em;
+    background-color: azure;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+.contain {
+    display: inline-block;
+    background: url("../images/andela2019.PNG ") fixed no-repeat;
+    width: 100%;
+    height: auto;
+
+}
+.abt-msg {
+    text-align: center;
+    margin-right: 0;
+    margin-left: 50%;
+    font-size: 120%;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.div1-house-specific {
+    text-align: center;
+    padding: 50px 50px;
+    background-color: grey;
+}
 
 
 
