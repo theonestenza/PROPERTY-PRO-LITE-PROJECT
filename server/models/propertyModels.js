@@ -15,19 +15,19 @@ class property{
   create(data) {
     const newProperty = {
       id: uuid.v4(),
-    owner: data.owner || '',
-    status: data.status || '',
-    price: data.price || '',
-      state: data.state|| '',
-      city: data.city || '',
-      address: data.address || '',
-      type: data.type || '',
-      createdOn: data.createdOn || '',
-      imageUrl: data.imageUrl || '',
+    owner: data.owner ,
+    status: data.status ,
+    price: data.price ,
+      state: data.state,
+      city: data.city ,
+      address: data.address ,
+      type: data.type ,
+      createdOn: data.createdOn ,
+      imageUrl: data.imageUrl ,
       
     };
     this.properties.push(newProperty);
-    return newProperty
+    newProperty = {'status':'success','data': newProperty};
   }
   /**
    * 
@@ -70,7 +70,9 @@ class property{
     const property = this.findOne(id);
     const index = this.properties.indexOf(property);
     this.properties.splice(index, 1);
-    return {};
+    return {
+      'status':'success', message:'property deleted successfully'
+     };
   }
 }
 export default new property();

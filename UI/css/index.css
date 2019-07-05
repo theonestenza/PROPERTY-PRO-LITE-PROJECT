@@ -132,7 +132,7 @@ h1 {
     margin-right: 30%;
     font-weight: bolder;
 }
-.pages-menu div {
+.pages-menu div  {
     display: inline-flex;
     padding: 3px 5px;
     font-weight: bolder;
@@ -142,7 +142,7 @@ h1 {
     color: white;
 }
 .pages-menu div:hover {
-    display: inline-flex;
+   
     padding: 3px 5px;
     font-weight: bolder;
     background-color:coral;
@@ -152,11 +152,19 @@ h1 {
 }
 .menu-bar-1 {
     
-    margin-top: 10%;
-    text-align: center;
+    margin-top: 2%;
+    text-align-last: auto;
     padding: 25px 15px;
     font-weight: bolder;
     font-size: large;
+    margin-left: 80%;
+
+}
+.wel-1 {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu-bar-1 div {
     
@@ -189,7 +197,7 @@ h1 {
     margin-right: 0;
 }
 .pages-sub-menu  {
-    background: url("../images/ogbg.PNG" ) ;
+  
     display: inline-flex;
     padding: 5px;
     font-size: 150%;
@@ -201,8 +209,107 @@ h1 {
     border-radius: .5%;
 
 }
+input  {
+    width:100%;
+    overflow: auto;
+    line-height: 2;
+    border-radius: 0.25rem;
+    font-size: 1rem;  
+}
 
+form {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 50px;
+    width:25%; 
+    margin-left:auto;
+    margin-right:auto;
+    border: green solid 2px;
+    border-radius: 1em;
+}
 
+button{
+   
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    width:100%; 
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid transparent;
+    padding: 0.4rem 0.95rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+.div-contact-form {
+    display: inline-flex;
+    width: 100%;
+}
+.contact-info {
+    font-size: x-large;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+}
+.about-pic {
+    
+    background: url("../images/andela2019.PNG") no-repeat;
+}
+.about-info {
+    margin-left: 60%;
+}
+.create-form {
+    margin-top: 7%;
+    padding: 50px;
+    width:50%; 
+    margin-left:auto;
+    margin-right:auto;
+    border: green solid 2px;
+    border-radius: 1em;
+}
 
+.allads-msg{
+    display: inline-flex;
+}
+.div1-house {
+    border: green solid 2px;
+    border-radius: .5em;
+    width: 50%;
+    text-align: center;
+}
+.div1-house button {
+    background-color: green;
+    width: 30%;
+    margin-left: 20%;
+    margin-right: 15%;
+ margin-top: 2%;
+
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+.div1-house-specific {
+   display: block;
+   margin-left: 15%;
+}
+.div1-house-specific{
+    width: 70%;
+}
+.div1-sp-msg {
+    width: 100%;
+    font-size: x-large;
+    background-color: aquamarine;
+}
 
 

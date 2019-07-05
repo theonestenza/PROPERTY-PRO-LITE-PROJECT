@@ -69,7 +69,7 @@ class user {
     const index = this.users.indexOf(user);
     this.users.splice(index, 1);
     return {
-      message: 'user deleted successfully',
+     'status':'success', message:'user deleted successfully'
     };
   }
 }
