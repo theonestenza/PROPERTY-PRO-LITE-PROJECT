@@ -15,10 +15,10 @@ class flag {
   create(data) {
     const newFlag = {
       id: uuid.v4(),
-    propertyId: data.propertyId || '',
-    createdOn: data.createdOn || '',
-    reason: data.reason || '',
-      description: data.description || '',
+    propertyId: data.propertyId ,
+    createdOn: data.createdOn ,
+    reason: data.reason ,
+      description: data.description ,
     };
     this.flags.push(newFlag);
     return newFlag;
@@ -49,7 +49,7 @@ class flag {
     this.flags[index].createdOn = data['createdOn'] || flag.createdOn;
     this.flags[index].reason = data['reason'] || flag.reason;
     this.flags[index].description = data['description'] || flags.description;
-    return this.flags[index];
+    return this.flags[{'status':'success','data':index}];
   }
   /**
    * 
@@ -59,7 +59,9 @@ class flag {
     const flag = this.findOne(id);
     const index = this.flags.indexOf(flag);
     this.flags.splice(index, 1);
-    return {};
+    return {
+      'status':'success', message:'flag deleted successfully'
+     };
   }
 }
 export default new flag();
