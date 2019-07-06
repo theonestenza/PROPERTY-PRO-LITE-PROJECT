@@ -33,7 +33,7 @@
               </div>
 
      <button><a href="createadvert.html">Poste an advert</a></button> 
-       <button> <a href="updateadvert.html">update a posted advert</a> </button>
+       <button> <a href="mypostedads.html">View my adverts</a> </button>
      
 <form class="create-form">
   
@@ -44,15 +44,29 @@
                       <label >Please tell us the property owner* </label>
                       <br />
                       <input type="text" placeholder="eg:Theoneste NZAKIZWANIMANA" required><br />
-                       <label>Please tell us the property status* </label><br>
+                     
                        
-                       <input type="checkbox" name="checkbox2" value="checkbox">
-                                  <label> Sale</label>
+                       <br />
+                          <select name="type" id="house-type" >
+                      
+                            <option value="0">SELECT STATUS</option>
+                            <option value="1">RENT</option>
+                            <option value="2">SALE</option>
+                            
+                          </select>  
                        
-                       <input type="checkbox" name="checkbox" value="checkbox"  ><label class="form-text centering">Rent</label>
-                       <input type="checkbox" name="checkbox3" value="checkbox">
-                           <label>Both</label>
                       <br />
+                      <br />
+                      <select name="type" id="house-type" >
+                  
+                        <option value="0">SELECT HOUSE TYPE</option>
+                        <option value="1">2 BEDROOM</option>
+                        <option value="2">3 BEDROOM</option>
+                        <option value="3">MINI-FLAT</option>
+                        <option value="4">OTHERS</option>
+                      </select>  
+                   <BR>
+                  <br />
                       <label >Upload property images* </label>
                       <br />
                       <input type="file" ><br><br>
@@ -66,11 +80,19 @@
                       <input type="text" placeholder="eg:kigali-Rwanda"  required><br />
                       <label>Please tell us the property type* </label>
                       <br />
-                      <input name="text" type="text"  placeholder="eg: 2 bedroom" required><br>
-                      <label >This property is created on* </label>
                       <br />
-                      <input type="text" placeholder=" eg:23 jun 2019" required>
-                       <br /> <br>
+                      <select name="type" id="house-type" >
+                  
+                        <option value="0">SELECT HOUSE TYPE</option>
+                        <option value="1">2 BEDROOM</option>
+                        <option value="2">3 BEDROOM</option>
+                        <option value="3">MINI-FLAT</option>
+                        <option value="4">OTHERS</option>
+                      </select>  
+                   
+                  <br /><br />
+                     
+                      
                       <button type="submit" >Create a property advert </button><br><br><br>
                   </form>        
       </div>
