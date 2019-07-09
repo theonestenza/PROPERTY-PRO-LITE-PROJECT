@@ -64,47 +64,17 @@ h1 {
     margin-right: 0;
     padding: 25px 35px;
 }
-.links-small-img{
-    text-align-last: right;
-    border: green solid 3px;
-}
+
 .google-map-box {
     width: 100%;
     height: auto;
 }
-.get-started {
-    text-align: center;
-    padding: 1px 1px;
-    background-color: green;
-    color: white;
-    margin-left: 40%;
-    margin-right: 40%;
-    border: hidden;
-    border-radius: .5em;
-    height: auto;
-}
-.get-started:hover {
-    text-align: center;
-    padding: 1px 1px;
-    background-color: rgb(212, 240, 148);
-    color: rgb(31, 163, 113);
-    margin-left: 40%;
-    margin-right: 40%;
-    border: hidden;
-    border-radius: .5em;
-    height: auto;
-}
+
+
 .nav-bar {
     margin-top: 15%;
 }
-.h1-map {
-    padding: 30px 0px;
-    text-align: center;
-    color: white;
-    background: green;
-    font-size: 120%;
-    height: auto;
-}
+
 .pages-menu  {
    
  text-align:right;
@@ -167,10 +137,7 @@ h1 {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
-.div-sp-msg {
-    background-color: beige;
-    border: green  solid 1px;
-}
+
 .textarea {
     width: 99%;
     height: 30vh;
@@ -205,15 +172,7 @@ input ,select:focus {
 }
 
 
-form {
-    margin-top: 7%;
-    margin-bottom: 7%;
-    padding: 50px;
-    width:25%; 
-    margin-left:auto;
-    margin-right:auto;
-   
-}
+
 
 
 button{
@@ -230,10 +189,7 @@ button{
     line-height: 1.5;
     border-radius: 0.25rem;
 }
-.div-contact-form {
-    display: inline-flex;
-    width: 100%;
-}
+
 .contact-info {
     font-size: x-large;
     margin-top: 3%;
@@ -247,36 +203,6 @@ button{
 }
 .about-info {
     margin-left: 60%;
-}
-.create-form {
-    margin-top: 7%;
-    padding: 50px;
-    width:50%; 
-    margin-left:auto;
-    margin-right:auto;
-    border: green solid 2px;
-    border-radius: 1em;
-}
-
-.allads-msg{
-    display: inline-flex;
-}
-.div1-house {
-    border: green solid 2px;
-    border-radius: .5em;
-    width: 50%;
-    text-align: center;
-}
-.div1-house button {
-    background-color: green;
-    width: 30%;
-    margin-left: 20%;
-    margin-right: 15%;
- margin-top: 2%;
-
-}
-button {
-    background-color: lightgrey;
 }
 
 a:link {
@@ -311,12 +237,8 @@ input[type=buttonr]{
     background-color: grey;
 }
 @media(max-width:768px){
-  form  textarea {
-        width: 70%;  
-    }
-    .create-form textarea  {
-        width: 99%;
-    }
+  
+
    .about-pic {
        width: 50%;
    }
@@ -330,15 +252,9 @@ input[type=buttonr]{
    input select:focus {
     height:5%;
 }
-.specific .pages-menu, .menu-bar-1 {
-    font-size: 70%;
-}
-.wel-1{
-    font-size: 160%; 
-}
-button a {
-    height: 5%;
-}
+
+
+
 select ,option {
    
     height: 3%;
@@ -372,22 +288,13 @@ body {
     }
  
     }
-    .div-contact-form  form  input{
-        font-size: 8px;
-       margin:2%;
-        margin: 0%;
-    } 
+   
     .specific {
         width: 100%;
         height: auto;
     }
-    .footer, footer {
-        width: 100%;
-    }
-    form {
-        width: 90%;
-        background-color: white;
-    }
+   
+  
     .contact-info {
         width: 35%;
         margin-left: 0;
@@ -489,3 +396,48 @@ body {
     margin: 3%;
      display: inline-flex;
  }
+.forgot-pwd{
+    margin-left: 60%;
+}
+ form {border: 3px solid #f1f1f1;
+margin-left: 30%;
+margin-top:10%;
+margin-bottom:10%;
+margin-right: 30%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button-form {
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+.topnav {
+    margin-top: 3%;
+    margin-left: 60%;
+}
+.topnav a {
+    margin: 3%;
+    font-weight: bolder;
+}
+
