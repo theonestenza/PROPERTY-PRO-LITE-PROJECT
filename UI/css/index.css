@@ -440,4 +440,7 @@ button:hover {
     margin: 3%;
     font-weight: bolder;
 }
+.center {
+text-align: center;
+}
 
