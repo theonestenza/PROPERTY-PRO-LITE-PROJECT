@@ -34,7 +34,7 @@ const User = {
    * @returns {object} user object
    */
   getOne(req, res) {
-    const user = userModel.findOne(req.query.id);
+    const user = userModel.findOne(req.params.id);
     if (!user) {
       return res.status(404).send({'status':'error','error': 'user not found'});
     }
@@ -47,11 +47,11 @@ const User = {
    * @returns {object} updated user
    */
   update(req, res) {
-    const user = userModel.findOne(req.query.id);
+    const user = userModel.findOne(req.params.id);
     if (!user) {
       return res.status(404).send({'message': 'user not found'});
     }
-    const updatedUser= userModel.update(req.query.id, req.body)
+    const updatedUser= userModel.update(req.params.id, req.body)
     return res.status(200).send(updatedUser);
   },
   /**
@@ -61,11 +61,11 @@ const User = {
    * @returns {void} return statuc code 204 
    */
   delete(req, res) {
-    const user = userModel.findOne(req.query.id);
+    const user = userModel.findOne(req.params.id);
     if (!user) {
       return res.status(404).send({'message': 'user not found'});
     }
-    const ref = userModel.delete(req.query.id);
+    const ref = userModel.delete(req.params.id);
     return res.status(200).send(ref);
   }
 }

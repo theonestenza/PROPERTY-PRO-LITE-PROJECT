@@ -55,7 +55,7 @@ const flag = {
    * 
    * @param {object} req 
    * @param {object} res 
-   * @returns {void} return statuc code 204 
+   * @returns {void} return status code 204 
    */
   delete(req, res) {
     const flag = flagModel.findOne(req.params.id);

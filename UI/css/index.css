@@ -1,445 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="create user account,View a specific property advert,
+        Get all property advertisement offering a specific type of property,
+        Get all property adverts,Delete a property advert,
+        Mark a property as sold so users know it’s no longer available,
+        Update property data,Create a property ad,Login a user">
 
-*{
-    margin: 0%
-}
-.big-image{
-    background: url("../images/header_bg.jpg " ) ;
-      min-height: 500px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      border: green solid 3px;
-      border-radius: 1.5em;
-}
-body{
-    margin-left: 0;
-    margin-right: 0;
-  
-    
-}
-.footer {
+              <link rel="stylesheet" href="css/index.css">
+             <meta name="author" content="Theoneste NZAKIZWANIMANA">
+            <meta name="description" content="An easy and reliable online sale and rental service">
+          <title>Property pro lite-An easy and reliable online sale and rental service </title>
+        <link rel="shortcut icon" type="image/png"  href="images/newlogo.png" >
+      </head>
+    <body>
+       <div class="logo">
+          <a href="./index.html">
+            <img src="images/newlogo.png" alt="" width="3%">
+            <span class="logo-text">Property-PRO Lite</span> 
+          </a> 
+          <div class="body-welcome">
+           <div class="menu-bar-1" >
+           <div> <p> <a href="./pages/signin.html">LOGIN</a>
+             <a href="./pages/createaccount.html">SIGIN UP</a></p>
+          </div>
+         </div>
+        </div>
+         
+         
+          <br>
+          <div class="welcome-text">
+         Welcome to Property-PRO Lite
 
-    position: fixed;
-    bottom:0;
-      left: 0;
-     width:100%;
-    color: black;
-    height: auto;
-    background: url("../images/lincoln.jpg " ) ;
-    font-weight: bolder;
-}
+          </div>
+          <div class="welcome-text-exp">
+             <p> There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered 
+              alteration in some form, by injected humour, or randomised w<br>ords which don't look even slightly </p>
+          </div> 
+          </div>
 
-li {
-    display: inline-block;
-    text-align: center;
-   
-} 
-a {
-    text-decoration: none;
-}
-ul {
-    list-style-type: none;
-}
-p{
-    font-size: 100%;
+          <div class="image-card-container">
+            <span class="image-card-text"><p>There are many variations of passages of Lorem Ipsum available</p></span>   
+                 <div class="image-row">
+                <div class="image-column">
+                  <div class="image-card">
+                    <img src="images/homebackground.jpg" width="100%" >
+                    <p>There are many variations</p>
+                    <p> <button>View</button></p>
+                  </div>
+                </div>
+              </div>
 
-}
-h1 {
-    
-   font-size:  120%;
-}
-.div1 {
-    border-radius: .5em;
-    border: solid  1px;
-    width: 33%;
-    text-align: justify;
-    text-align: center;
-    padding: 2px;
-    background-color: white;
+              <div class="image-row">
+                  <div class="image-column">
+                    <div class="image-card">
+                      <img src="images/homebackground.jpg" width="100%" >
+                      <p>There are many variations</p>
+                <p> <button>View</button></p>
+                    </div>
+                  </div>
+                </div>
 
-    
-} 
-.div2 {
-    width: 33%;
-    text-align: justify;
-    text-align: center;
-    padding: 2px; 
-    background-color: beige;
-       
-} 
-.h1 {
-    text-align: center;
-}
-.footer 
-{
-    position: relative;
-    text-align: center;
-    
-}
-.small-img {
-    width: 3%;
-    
-}
-.inline-flex {
-    text-align: center;
-    display: inline-flex;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-}
-.links-small-img{
-    text-align-last: right;
-    border: green solid 3px;
-}
-.google-map-box {
-    width: 100%;
-    height: auto;
-}
-.get-started {
-    text-align: center;
-    padding: 1px 1px;
-    background-color: green;
-    color: white;
-    margin-left: 40%;
-    margin-right: 40%;
-    border: hidden;
-    border-radius: .5em;
-    height: auto;
-}
-.get-started:hover {
-    text-align: center;
-    padding: 1px 1px;
-    background-color: rgb(212, 240, 148);
-    color: rgb(31, 163, 113);
-    margin-left: 40%;
-    margin-right: 40%;
-    border: hidden;
-    border-radius: .5em;
-    height: auto;
-}
-.nav-bar {
-    margin-top: 15%;
-}
-.h1-map {
-    padding: 30px 0px;
-    text-align: center;
-    color: white;
-    background: green;
-    font-size: 120%;
-    height: auto;
-}
-.pages-menu  {
-   
- text-align:right;
-    margin-left: 0%;
-    margin-right: 30%;
-    font-weight: bolder;
-}
-.pages-menu div  {
-    display: inline-flex;
-    padding: 3px 5px;
-    font-weight: bolder;
-    background-color:bisque;
-    border: hidden;
-    border-radius: .2em;
-    color: white;
-}
-.pages-menu div:hover {
-   
-    padding: 3px 5px;
-    font-weight: bolder;
-    background-color:coral;
-    border: hidden;
-    border-radius: .2em;
-    color: white;
-}
-.menu-bar-1 {
-    
-    margin-top: 2%;
-    text-align-last: auto;
-    padding: 25px 15px;
-    font-weight: bolder;
-    font-size: large;
-    margin-left: 80%;
+       <div class="image-row">
+            <div class="image-column">
+              <div class="image-card">
+                <img src="images/homebackground.jpg" width="100%" >
+                <p>There are many variations</p>
+                <p> <button>View</button></p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="image-row">
+            <div class="image-column">
+              <div class="image-card">
+                <img src="images/homebackground.jpg" width="100%" >
+                <p>There are many variations</p>
+                <p> <button>View</button></p>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+       <br>
 
-}
-.wel-1 {
-    font-size: xx-large;
-    text-align: center;
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.menu-bar-1 div {
-    
-    padding: 5px 10px;
-    
-}
+     <br>
+       <div class="home-big-pic">
+         <div class="under-body-image">
+            <img src="images/photo-1515263487990-61b07816b324.jpeg" width="100%" >
+        </div>
+        <div class="home-big-pic-text">
+          <h1>The passage experienced</h1>
+           <p>The passage experienced a surge in popularity during the 1960s when Letraset used it 
+            on their dry-transfer sheets, and again during the 90s as desktop publishers bundled 
+            the text with their software. Today it's seen all around the web; on templates, websites,
+             and stock designs. Use our generator to get your own, or read on for the authoritative
+              history of lorem ipsum.</p> 
 
-.logo {
-    margin-left: 3%;
-    margin-top: 3%;
-    border: hidden;
-    border-radius: 50%;
-}
-.dv1-container {
-    display: inline-flex;
-}
-.wel-msg {
-    text-align: center;
-    font-weight: bolder;
-    color: green;
-}
-.house-div-container {
-  display: inline-flex;
-  background-color: aliceblue;
-  margin-left: 0;
-  margin-right: 0;
-}
-.specific {
-   background-size: cover;
-    margin-left: 0;
-    margin-right: 0;
-    background: url("../images/lincoln.jpg");
-    border: hidden;
-    border-top-color: orange;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-}
-.div-sp-msg {
-    background-color: beige;
-    border: green  solid 1px;
-}
-.textarea {
-    width: 99%;
-    height: 30vh;
-}
-.pages-sub-menu  {
-  
-    display: inline-flex;
-    padding: 5px;
-    font-size: 150%;
-    
-}
-.pages-sub-menu div a:hover{
-    background-color: beige;
-    border: hidden;
-    border-radius: .5%;
+              <h1>The passage experienced</h1>
+              <p>The passage experienced a surge in popularity during the 1960s when Letraset used it 
+               on their dry-transfer sheets, and again during the 90s as desktop publishers bundled 
+               the text with their software. Today it's seen all around the web; on templates, websites,
+                and stock designs. Use our generator to get your own, or read on for the authoritative
+                 history of lorem ipsum.</p> 
 
-}
-input ,select {
-    width:100%;
-    overflow: auto;
-    line-height: 2;
-    border-radius: 0.25rem;
-    font-size: 1rem;  
-}
-input ,select:focus {
-    width:100%;
-    overflow: auto;
-    line-height: 2;
-    border-radius: 0.25rem;
-    font-size: 1rem; 
-    background-color:whitesmoke;
-}
-
-
-form {
-    margin-top: 7%;
-    margin-bottom: 7%;
-    padding: 50px;
-    width:25%; 
-    margin-left:auto;
-    margin-right:auto;
-    border: green solid 2px;
-    border-radius: 1em;
-}
-
-
-button{
-   
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    width:100%; 
-    margin-left:auto;
-    margin-right:auto;
-    border: 1px solid transparent;
-    padding: 0.4rem 0.95rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-}
-.div-contact-form {
-    display: inline-flex;
-    width: 100%;
-}
-.contact-info {
-    font-size: x-large;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-top: 3%;
-    text-align: center;
-}
-.about-pic {
-    
-    background: url("../images/andela2019.PNG") no-repeat;
-}
-.about-info {
-    margin-left: 60%;
-}
-.create-form {
-    margin-top: 7%;
-    padding: 50px;
-    width:50%; 
-    margin-left:auto;
-    margin-right:auto;
-    border: green solid 2px;
-    border-radius: 1em;
-}
-
-.allads-msg{
-    display: inline-flex;
-}
-.div1-house {
-    border: green solid 2px;
-    border-radius: .5em;
-    width: 50%;
-    text-align: center;
-}
-.div1-house button {
-    background-color: green;
-    width: 30%;
-    margin-left: 20%;
-    margin-right: 15%;
- margin-top: 2%;
-
-}
-button {
-    background-color: green;
-}
-
-a:link {
-    color:black;
-}
-
-a:visited {
-    color: black;
-}
-
-
-.div1-house-specific {
-   display: block;
-   margin-left: 15%;
-}
-.div1-house-specific{
-    width: 70%;
-}
-.div1-sp-msg {
-    width: 100%;
-    font-size: x-large;
-    background-color: aquamarine;
-}
-input[type=button]:hover{
-    background-color: orange;
-}
-input[type=buttonr]{
-    color: white;
-    font-weight: bolder;
-}
-.update-delete {
-    background-color: grey;
-}
-@media(max-width:768px){
-  form  textarea {
-        width: 70%;  
-    }
-    .create-form textarea  {
-        width: 99%;
-    }
-   .about-pic {
-       width: 50%;
-   }
-   .about-info {
-       width: 45%;
-       margin-left: 120%;
-   }
-   input select {
-       height:5%;
-   }
-   input select:focus {
-    height:5%;
-}
-.specific .pages-menu, .menu-bar-1 {
-    font-size: 70%;
-}
-.wel-1{
-    font-size: 160%; 
-}
-button a {
-    height: 5%;
-}
-select ,option {
-   
-    height: 3%;
-    
-}
-select ,option:focus {
-    font-size: 10px;
-    height: 3%;
-    
-}
-body {
-    margin: 2%;
-    font-size: 10px;
-} 
-.contact-info {
-    font-size: 130%;
-} 
-
-
-   @media(max-width:874px){
-   }
-  
-   @media(max-width:319px){
-    .contact-info {
-        font-size: 130%;
-       
-    } 
-    .specific .pages-menu  {
-        font-size: 70%;
-        margin: 0;
-    }
-    .menu-bar-1{
-        margin-left: 65%;
-    }
-    .div-contact-form  form  input{
-        font-size: 8px;
-       margin:2%;
-        margin: 0%;
-    } 
-    .specific {
-        width: 100%;
-        height: auto;
-    }
-    .footer, footer {
-        width: 100%;
-    }
-    form {
-        width: 90%;
-        background-color: white;
-    }
-    .contact-info {
-        width: 35%;
-        margin-left: 0;
-    }
-    .about-info {
-        width: 35%;
-        margin-left: 100%;
-    }
-    form {
+                <h1>The passage experienced</h1>
+                 <p>The passage experienced a surge in popularity during the 1960s when Letraset used it 
+                  on their dry-transfer sheets, and again during the 90s as desktop publishers bundled 
+                  the text with their software. Today it's seen all around the web; on templates, websites,
+                   and stock designs. Use our generator to get your own, or read on for the authoritative
+                    history of lorem ipsum.</p> 
+        </div>
+       </div>
         
-        width: 100%;
-    }
-}
-}
+ <br> <br> <br>
+         
+            <div class="footer">
+            <p> &copy; copyright  Property pro lite 2019. <a href="#">Terms</a>  and  <a href="#">condition</a></p>
+          </div>
+</body>
+</html>
