@@ -1,34 +1,9 @@
 
-*{
-    margin: 0%
-}
-.big-image{
-    background: url("../images/header_bg.jpg " ) ;
-      min-height: 500px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      border: green solid 3px;
-      border-radius: 1.5em;
-}
-body{
+ody{
     margin-left: 0;
-    margin-right: 0;
-  
-    
+    margin-right: 0; 
 }
-.footer {
 
-    position: fixed;
-   bottom:0;
-   left: 0;
-   width:100%;
-    color: black;
-    height: auto;
-    background: url("../images/lincoln.jpg " ) ;
-    font-weight: bolder;
-}
 
 li {
     display: inline-block;
@@ -83,10 +58,11 @@ h1 {
 }
 .inline-flex {
     text-align: center;
-    display: inline-flex;
+    display: flex;
     float: right;
     margin-left: 0;
     margin-right: 0;
+    padding: 25px 35px;
 }
 .links-small-img{
     text-align-last: right;
@@ -137,12 +113,10 @@ h1 {
     font-weight: bolder;
 }
 .pages-menu div  {
-    display: inline-flex;
+    display: flex;
     padding: 3px 5px;
     font-weight: bolder;
-    background-color:bisque;
-    border: hidden;
-    border-radius: .2em;
+  
     color: white;
 }
 .pages-menu div:hover {
@@ -155,40 +129,27 @@ h1 {
     color: white;
 }
 .menu-bar-1 {
-    
-    margin-top: 2%;
-    text-align-last: auto;
-    padding: 25px 15px;
+    margin-top: 0;
     font-weight: bolder;
     font-size: large;
     margin-left: 80%;
+}
+.header-nav-bar{
+    margin: 4%;
+    padding: 3%;
+}
 
-}
-.wel-1 {
-    font-size: xx-large;
-    text-align: center;
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.menu-bar-1 div {
-    
-    padding: 5px 10px;
-    
-}
 
 .logo {
-    margin-left: 3%;
+    margin-left: 10%;
     margin-top: 3%;
     border: hidden;
     border-radius: 50%;
 }
-.dv1-container {
-    display: inline-flex;
-}
+
 .wel-msg {
     text-align: center;
     font-weight: bolder;
-    color: green;
 }
 .house-div-container {
   display: inline-flex;
@@ -251,8 +212,7 @@ form {
     width:25%; 
     margin-left:auto;
     margin-right:auto;
-    border: green solid 2px;
-    border-radius: 1em;
+   
 }
 
 
@@ -316,7 +276,7 @@ button{
 
 }
 button {
-    background-color: green;
+    background-color: lightgrey;
 }
 
 a:link {
@@ -410,8 +370,7 @@ body {
         font-size: 70%;
         margin: 0;
     }
-    .menu-bar-1{
-        margin-left: 65%;
+ 
     }
     .div-contact-form  form  input{
         font-size: 8px;
@@ -442,4 +401,88 @@ body {
         width: 100%;
     }
 }
+
+
+/* lfa */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .image-column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  
+  .image-row {margin: 0 -5px;}
+  
+  .image-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    text-align: center;
+    margin: 2%;
+    
+  }
+
+  .image-card-container {
+      margin-top: 13%;
+      margin-left: 2%;
+      margin-right: 2%;
+
+  }
+
+  .logo-text {
+      margin-right: 6%;
+      font-size: 300%;
+      font-weight: bolder; 
+  }
+  .welcome-text-exp {
+      text-align: center;
+  }
+  .welcome-text {
+    font-size: 200%;
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 6%;
+  }
+  .image-card-text {
+      text-align: center;
+      font-size: 120%;
+      font-weight: bold;
+  }
+  .menu-bar-1 p a {
+      margin: 2%;
+  }
+  .menu-bar-1 p a:hover {
+      color: rgb(53, 53, 83);
+    margin: 2%;
 }
+  
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+ }
+ .under-body-image {
+     width: 150%; 
+     margin: 3%;
+     
+ }
+
+ .home-big-pic {
+    margin: 3%;
+     display: inline-flex;
+ }
