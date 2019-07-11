@@ -137,7 +137,6 @@ h1 {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
-
 .textarea {
     width: 99%;
     height: 30vh;
@@ -170,10 +169,6 @@ input ,select:focus {
     font-size: 1rem; 
     background-color:whitesmoke;
 }
-
-
-
-
 
 button{
    
