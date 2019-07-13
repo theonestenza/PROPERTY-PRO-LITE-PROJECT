@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="create user account,View a specific property advert,
+        Get all property advertisement offering a specific type of property,
+        Get all property adverts,Delete a property advert,
+        Mark a property as sold so users know it’s no longer available,
+        Update property data,Create a property ad,Login a us">
+  <link rel="stylesheet" href="../css/index.css">
+  <meta name="author" content="Theoneste NZAKIZWANIMANA">
+  <meta name="description" content="An easy and reliable online sale and rental service">
+  <title>Property pro lite-An easy and reliable online sale and rental service </title>
+
+
+
+</head>
+
+<body>
+
+<form class="myForm">
+
+  <div class="row">
+    <div class="column">
+      <div class="input-group">
+        <label for="customer_name">Name </label>
+        <input id="customer_name">
+      </div>
+      <div class="input-group">
+        <label for="phone_number">Phone </label>
+        <input type="tel" id="phone_number">
+      </div>
+      <div class="input-group">
+        <label for="email_address">Email </label>
+        <input type="email" id="email_address">
+      </div>
+      <div class="input-group">
+        <label for="pickup_time">Pickup Date/Time</label>
+        <input type="datetime-local" id="pickup_time">
+      </div>
+      <div class="input-group">
+        <label for="pickup_place">Pickup Place</label>
+        <select id="pickup_place">
+          <option value="" selected="selected">Select One</option>
+          <option value="office" >Taxi Office</option>
+          <option value="town_hall" >Town Hall</option>
+          <option value="telepathy" >We'll Guess!</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="dropoff_place">Dropoff Place</label>
+        <input type="text" id="dropoff_place" list="destinations">
+
+        <datalist id="destinations">
+          <option value="Airport">
+          <option value="Beach">
+          <option value="Fred Flinstone's House">
+        </datalist>
+      </div>
+    </div>
+    <div class="column">
+      <fieldset class="taxi">
+        <legend>Which taxi do you require?</legend>
+        <label> <input type="radio" id="taxi_car" value="car"> Car </label>
+        <label> <input type="radio" id="taxi_van" value="van"> Van </label>
+        <label> <input type="radio" id="taxi_tuk" value="tuktuk"> Tuk Tuk </label>
+      </fieldset>
+
+      <fieldset class="extras">
+        <legend>Extras</legend>
+        <label> <input type="checkbox" id="extras_baby" value="baby"> Baby Seat </label>
+        <label> <input type="checkbox" id="extras_wheel" value="wheelchair"> Wheelchair Access </label>
+        <label> <input type="checkbox" id="extras_tip" value="tip"> Stock Tip </label>
+      </fieldset>
+    </div>
+  </div>
+  
+  <div class="row">
+    
+    <button id="submit">Submit Booking</button>
+    
+  </div>
+</form>
+<div class="footer">
+    <p> &copy; copyright Property pro lite 2019. <a href="#">Terms</a> and <a href="#">condition</a></p>
+  </div>
+</body>
+
+</html>
