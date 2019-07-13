@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import config from 'config';
+import config from '../config/default.json';
 import lodash from 'lodash';
 class user {
 
@@ -56,7 +56,7 @@ class user {
 
   //function to generate token
   generateAuthToken(id,admin){
-     const token  = jwt.sign({id: id,is_admin:admin},config.get('jwtSecret'));
+     const token  = jwt.sign({id: id,is_admin:admin},config.jwtSecret);
      return token;
   }
   /**
@@ -68,7 +68,7 @@ class user {
     return this.users.find(u => u.id === id);
   }
   /**
-   * @returns {object} returns all users
+   *+9+ @returns {object} returns all users
    */
   findAll() {
     return this.users;

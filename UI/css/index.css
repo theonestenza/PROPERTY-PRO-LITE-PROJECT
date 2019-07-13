@@ -96,18 +96,21 @@ a {
     color: white;
 }
   
-  .image-row {margin: 0 -5px;}
+  .image-row {
+      margin: 0 -5px;
+      
+  }
   
   .image-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 5px;
     text-align: center;
     margin: 2%;
-    
+    background-color: rgb(226, 223, 223);
   }
 
   .image-card-container {
-      margin-top: 0%;
+      margin-top: 7rem;
       margin-left: 2%;
       margin-right: 2%;
 
@@ -136,7 +139,6 @@ a {
   }
 
 
-  /* test */
   .image-card-text {
       text-align: center;
       font-size: 120%;
@@ -153,7 +155,6 @@ a {
 }
   
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -176,8 +177,7 @@ a {
 }
  form {border: 3px solid #f1f1f1;
 margin-left: 30%;
-margin-top:10%;
-margin-bottom:10%;
+
 margin-right: 30%;
 }
 
@@ -188,6 +188,10 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border: hidden;
+  border-radius: .2em;
+  padding: 10px;
+  background-color: #e8eefc;
 }
 
 .button-form {
@@ -266,13 +270,85 @@ form   a:visited {
     font-weight: 900;
 }
 .createads-form {
-   margin:150px;
-  
+    background-color: rgba(0, 0, 0, 0.9);
+   width: 30%;
+   background-color: rgb(45, 45, 51);
+   padding: 65px;
+   color:white;
+   margin-left: 0;
+
+}
+.form-container {
+
+    background:url('../images/bgg1.jpeg') no-repeat center center/cover;
 }
 form {
+    background-color: rgb(45, 45, 51);
      border-radius: .5em;
-     background-color: whitesmoke;
+     color: white;
+    
 }
+.container {
+	padding: 1%;
+	}
+.header-specific,
+.footer {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+    height: auto;
+    }
+    
+.content {
+	display: flex;
+	}
+.main {
+    background:url('../images/bgg2.jpg') no-repeat center center/cover;
+	flex-grow: 1;
+	height: 500px;
+	margin-right: 10px;
+	padding: 10px;
+
+    }
+    .menu-bar-1 .logo-text {
+        text-align: center;
+    }
+    fieldset {
+        padding: 15px;
+     
+    }
+     .main-text {
+        border: black solid 1px;
+        border-radius: 1.5em;
+        background-color: rgb(253, 253, 255);
+        margin-right: 80%;
+        color: green;
+        font-weight: 900;
+        text-align: center;
+    }
+.aside {
+	width: 300px;
+	padding: 10px;
+	}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+	}
+@media screen and (max-width: 1000px) {
+	.content {
+		flex-direction: column-reverse;
+		}
+	.main {
+		margin-right: 0px;
+		}
+	.aside {
+		width: auto;
+		}
+	.side_ot {
+		display: none;
+		}
+	}
 .responsive {
     width: 100%;
     margin: 0;
@@ -287,4 +363,26 @@ form {
       width: 45%;
       margin-left:46%; 
   }
+  #house-type {
+      width: 23rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      height: 5vh;
+      width: 100%;
+  }
+  .select-property {
+      background-color: #e4e7ee;
+      padding: 25px;
+  }
+  .search {
+      position: absolute;
+      margin-top: 20rem;
+      width: 30rem;
+     margin-left: 30rem;
+     margin-right: 30rem;
+  }
+ 
+
+ 
+  
 
