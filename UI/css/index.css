@@ -115,13 +115,17 @@ a {
       margin-right: 2%;
 
   }
+  .margin-form {
+      margin-left: 2rem;
+      margin-right: 2rem;
+  }
 
   .logo-text {
       
       font-size: 1.5rem;
       font-weight: 900;
       color: #f1f1f1; 
-      margin-left: 100px;
+      margin-left: 8rem;
   }
   .welcome-text-exp {
       text-align: center;
@@ -227,7 +231,7 @@ text-align: center;
 
 }
 .navbar {
-margin-left: 40%;
+margin-left: 25%;
 
 }
 .navbar a {
@@ -247,14 +251,15 @@ a:visited  {
 button a {
     color: #f1f1f1;
 }
-a:link {
+
+a:any-link {
     color: #f1f1f1;
 }
 form button  a:visited {
     color: white;
 }
 form   a:visited {
-    color: blue;
+    color: white;
 }
 
 
@@ -270,9 +275,8 @@ form   a:visited {
     font-weight: 900;
 }
 .createads-form {
-    background-color: rgba(0, 0, 0, 0.9);
-   width: 30%;
-   background-color: rgb(45, 45, 51);
+   width: 50%;
+   background-color: #1b77c2;
    padding: 65px;
    color:white;
    margin-left: 0;
@@ -283,7 +287,8 @@ form   a:visited {
     background:url('../images/bgg1.jpeg') no-repeat center center/cover;
 }
 form {
-    background-color: rgb(45, 45, 51);
+    padding: 35px;
+    background-color: #1b77c2;
      border-radius: .5em;
      color: white;
     
@@ -310,7 +315,8 @@ form {
 	padding: 10px;
 
     }
-    .menu-bar-1 .logo-text {
+    .menu-bar-1 .log-text {
+        margin-left: 4rem;
         text-align: center;
     }
     fieldset {
@@ -380,6 +386,12 @@ form {
       width: 30rem;
      margin-left: 30rem;
      margin-right: 30rem;
+  }
+  .create-form {
+      padding: 35px;
+      background-color: #1b77c2;
+      width: 50%;
+      justify-content: center;
   }
  
 
