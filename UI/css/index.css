@@ -27,7 +27,7 @@ body{
 }
 .logo {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .wel-msg {
     text-align: center;
@@ -110,7 +110,7 @@ a {
   }
 
   .image-card-container {
-      margin-top: 7rem;
+      margin-top: 15rem;
       margin-left: 2%;
       margin-right: 2%;
 
